@@ -91,13 +91,6 @@ add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
 
 remove_definitions(-DQT_NO_CAST_FROM_ASCII -DQT_STRICT_ITERATORS -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_KEYWORDS)
 
-add_subdirectory(cuttlefish)
-add_subdirectory(engineexplorer)
-add_subdirectory(plasmoidviewer)
-add_subdirectory(themeexplorer)
-add_subdirectory(lookandfeelexplorer)
-#add_subdirectory(remote-widgets-browser)
-#add_subdirectory(wallpaperviewer)
 if (KDevPlatform_FOUND AND Qt5WebKit_FOUND AND Qt5WebKitWidgets_FOUND)
     add_subdirectory(plasmate)
 endif()
