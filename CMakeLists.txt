@@ -55,7 +55,7 @@ set_package_properties(KDevPlatform PROPERTIES
 
 find_package(KF5Kirigami2 5.22)
 set_package_properties(KF5Kirigami2 PROPERTIES
-    DESCRIPTION "KDE’s lightweight user interface framework for mobile and convergent applications"
+    DESCRIPTION "KDE's lightweight user interface framework for mobile and convergent applications"
     URL "https://techbase.kde.org/Kirigami"
     PURPOSE "Required by lookandfeelexplorer"
     TYPE RUNTIME
