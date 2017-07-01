@@ -2,6 +2,7 @@
 Type=Service
 Exec=blubb
 Comment=Lets you manage your git repository.
+Comment[ast]=Déxate xestionar el to repositoriu git.
 Comment[ca]=Permet gestionar el vostre repositori git.
 Comment[ca@valencia]=Permet gestionar el vostre repositori git.
 Comment[da]=Lader dig håndtere dit git-depot.
